@@ -1,6 +1,12 @@
-<%= image_tag("logo-fs.png", width: "200px", heigth: "160px", alt: "Logo Econmerce") %>
+<%= link_to(products_path) do %>
+  <h1>Fashion Trends</h1>
+<% end %>
 
-<p>Explore the future in style. Find the technological accessories and personal details that will transform your daily life.
-At Fashion Trends, we fuse innovation and elegance so that each experience is unique. Discover the perfect balance between
-technology and style. Welcome to the world of personal possibilities.</p>
+<%= link_to "Añadir producto", new_product_path %>
+
+<p>Explore the future in style. Find the technological accessories
+  and personal details that will transform your daily life. At
+  Fashion Trends, we fuse innovation and elegance so that each
+  experience is unique. Discover the perfect balance between technology
+  and style. Welcome to the world of personal possibilities.</p>
 
