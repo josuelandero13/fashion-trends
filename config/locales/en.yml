@@ -10,6 +10,17 @@ en:
         description: "Description"
         price: "Price"
         photo: "Photo"
+    common:
+      back: "Go back"
+  shared:
+    header:
+      add: "Add products"
+      intro: "Explore the future in style. Find the technological accessories
+              and personal details that will transform your daily life. At
+              Fashion Trends, we fuse innovation and elegance so that each
+              experience is unique. Discover the perfect balance between technology
+              and style. Welcome to the world of personal possibilities."
+      categories: "Categories"
   products:
     edit:
       title: "Edit product"
@@ -25,4 +36,21 @@ en:
       updated: "Your product has been successfully updated"
     destroy:
       destroyed: "Your product has been successfully destroyed"
+  categories:
+    category:
+      edit: "Edit"
+      delete: "Delete"
+    index:
+      title: "Categories"
+      new: "Add category"
+    edit:
+      title: "Edit category"
+    new:
+      title: "New category"
+    create:
+      created: 'Your category has been successfully created'
+    update:
+      updated: 'Your category has been successfully updated'
+    destroy:
+      destroyed: 'Your category has been successfully destroyed'
 

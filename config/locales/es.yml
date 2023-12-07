@@ -8,6 +8,15 @@ es:
         description: "Descripción"
         price: "Precio"
         photo: "Foto"
+  shared:
+    header:
+      add: "Añadir producto"
+      intro: "Explora el futuro con estilo. Encuentra los accesorios tecnológicos
+              y detalles personales que transformarán tu vida diaria. En
+              Tendencias de Moda, fusionamos innovación y elegancia para que cada
+              La experiencia es única. Descubre el equilibrio perfecto entre tecnología
+              y estilo. Bienvenido al mundo de las posibilidades personales."
+      categories: "Categorias"
   products:
     edit:
       title: "Editar producto"
@@ -21,4 +30,19 @@ es:
       updated: "Tu producto se ha actualizado correctamente"
     destroy:
       destroyed: "Tu producto se ha eliminado correctamente"
+  categories:
+    category:
+      edit: "Editar"
+      delete: "Borrar"
+    index:
+      title: "Categorias"
+    edit: "Editar categoria"
+    new:
+      title: "Añadir categoria"
+    create:
+      created: 'Tu categoría se ha creado correctamente'
+    update:
+      updated: 'Tu categoría se ha actualizado correctamente'
+    destroy:
+      destroyed: 'Tu categoría se ha eliminado correctamente'
 

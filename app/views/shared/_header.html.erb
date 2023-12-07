@@ -2,11 +2,8 @@
   <h1>Fashion Trends</h1>
 <% end %>
 
-<%= link_to "Añadir producto", new_product_path %>
+<%= link_to t(".add"), new_product_path %>
+<%= link_to t(".categories"), categories_path %>
 
-<p>Explore the future in style. Find the technological accessories
-  and personal details that will transform your daily life. At
-  Fashion Trends, we fuse innovation and elegance so that each
-  experience is unique. Discover the perfect balance between technology
-  and style. Welcome to the world of personal possibilities.</p>
+<p><%= t(".intro") %></p>
 
